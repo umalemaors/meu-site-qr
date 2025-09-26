@@ -1,5 +1,5 @@
 // URL correta com key
-const contadorURL = "https://api.countapi.xyz/hit/umalemaors.github.io/meu-site-qr/visitas";
+const contadorURL = "https://script.google.com/macros/s/AKfycbwzq550kPLXxNx4z16RD3XnDIX61DlM09ZHxTgY8Rmj1-TOB3Jz_800yIlTcDogDjHCYQ/exec";
 
 fetch(contadorURL)
   .then(response => response.json())
