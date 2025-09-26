@@ -1,7 +1,6 @@
-// URL única para o contador
-const contadorURL = "https://api.countapi.xyz/hit/umalemaors.github.io/meu-site-qr/";
+// URL correta com key
+const contadorURL = "https://api.countapi.xyz/hit/umalemaors.github.io/meu-site-qr/visitas";
 
-// Atualiza o contador quando a página é carregada
 fetch(contadorURL)
   .then(response => response.json())
   .then(data => {
